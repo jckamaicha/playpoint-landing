@@ -7,7 +7,7 @@ import "animate.css";
 import React from "react";
 import { Button } from "@mui/material";
 import Marquee from "react-fast-marquee";
-import Popup from "reactjs-popup";
+// import Popup from "reactjs-popup";
 
 /**
  * @components custom main components
@@ -40,7 +40,7 @@ function Home() {
   return (
     <div className="home__container">
       <Navbar refs={refs} />
-      <Popup defaultOpen position="center center">
+      {/* <Popup defaultOpen position="center center">
         <h3 className="title">Message from Playpoint 🔺</h3>
         <hr />
         <p className="content">
@@ -60,7 +60,7 @@ function Home() {
           </a>{" "}
           for presale investment.
         </p>
-      </Popup>
+      </Popup> */}
 
       {/**
        * @section => landing

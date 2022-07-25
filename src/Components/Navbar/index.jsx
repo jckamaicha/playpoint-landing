@@ -1,7 +1,7 @@
 import "./styles/style.css";
 
 import React from "react";
-import Marquee from "react-fast-marquee";
+// import Marquee from "react-fast-marquee";
 
 function Navbar({ refs }) {
   const {
@@ -19,38 +19,7 @@ function Navbar({ refs }) {
 
   return (
     <div className="nav__container">
-      <div className="topbar__container">
-        <Marquee pauseOnHover={true} speed={35}>
-          {/* <p>
-            <span className="numbering">#1</span> All the relevant remaining AMA
-            Questions will be answered on Blog Post.🤝
-          </p> */}
-          <p>
-            <span className="numbering">#1</span> Invitation to Pre/Private Sale
-            Investors; Pre-Private Sale Started from 16th May 2022 till end of
-            May 2022. Visit{" "}
-            <a
-              href="https://sale.playpoint.ai/"
-              target="_blank"
-              rel="noreferrer"
-              style={{
-                color: "white",
-              }}
-            >
-              https://sale.playpoint.ai/
-            </a>
-          </p>
-          {/* <p>
-            <span className="numbering">#3</span> Interested Investors & Venture
-            Capitalists can get in touch or directly contact to learn about the
-            process.💵
-          </p> */}
-          {/* <p>
-            <span className="numbering">#4</span> Pre/Private Sale will be
-            initiated soon 🚀.
-          </p> */}
-        </Marquee>
-      </div>
+      {/*  */}
       <div className="navbar__container">
         <div onClick={() => scrollToElement(HomeRef)} className="navbar__logo">
           <img
